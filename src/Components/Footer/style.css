@@ -1,0 +1,15 @@
+footer {
+  background: black;
+  width: 100vw;
+  height: 50px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.container-width {
+  width: 75%;
+  margin: auto;
+}
+
+p {
+  color: white;
+}

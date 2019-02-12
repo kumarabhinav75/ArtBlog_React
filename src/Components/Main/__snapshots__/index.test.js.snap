@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Main  should match the snapshot 1`] = `
+<div>
+  <header>
+    <div
+      className="container"
+    >
+      <p
+        className="heading"
+      >
+        The Artifact
+      </p>
+      <p
+        className="heading-content"
+      >
+        <i>
+          Culture & Art blog
+        </i>
+      </p>
+      <ul
+        className="nav-list"
+      >
+        <div
+          className="nav-items"
+        >
+          <li>
+            Blog
+          </li>
+          <li>
+            About
+          </li>
+          <li>
+            Contact
+          </li>
+        </div>
+      </ul>
+    </div>
+  </header>
+  <div
+    className="AllCards"
+  />
+  <div
+    className="createPostButton"
+  >
+    <button
+      className="create-button"
+      onClick={[Function]}
+      type="button"
+    >
+      Create Post
+    </button>
+  </div>
+  <footer>
+    <div
+      className="container-width"
+    >
+      <p>
+        © artifact.com 2019
+      </p>
+    </div>
+  </footer>
+</div>
+`;

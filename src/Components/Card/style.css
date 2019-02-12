@@ -1,0 +1,69 @@
+.cardContainer {
+  border: 1px solid darkgray;
+  width: 380px;
+  margin-top: 30px;
+}
+.art-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.art-image img {
+  width: 100%;
+  height: 300px
+}
+
+.date-time {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.date-time p{
+  color: darkgray;
+  margin: 0 10px;
+  font-size: 0.8em;
+}
+
+.art-heading {
+  font-size: 1.8em;
+  color: black;
+  margin: 10px 10px;
+}
+
+.art-story {
+  color: black;
+  margin: 10px 10px;
+  font-size: 1.1em;
+}
+
+.art-reaction hr{
+  width: 95%;
+}
+.clap-like {
+  display: flex;
+  justify-content: space-between;
+}
+.clap-like div {
+  height:8%;
+  width:8%;
+  margin: 10px;
+}
+
+.claps  {
+  display: flex;
+  justify-content: flex-start;
+}
+.claps  img{
+  width: 100%;
+  height: 100%;
+}
+
+.claps span {
+  color: #6d6c6c;
+  margin: 0;
+  vertical-align: middle;
+  font-size: 1.3em;
+  margin-left: 5px;
+  margin-top: 0;
+}

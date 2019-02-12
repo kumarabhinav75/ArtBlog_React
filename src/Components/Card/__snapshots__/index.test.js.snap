@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should match the snapshot 1`] = `
+<div
+  className="cardContainer"
+>
+  <section
+    className="art-image"
+  >
+    <img
+      alt="art"
+    />
+  </section>
+  <section
+    className="date-time"
+  >
+    <p />
+    <p />
+  </section>
+  <section>
+    <p
+      className="art-heading"
+    />
+    <p
+      className="art-story"
+    />
+  </section>
+  <section
+    className="art-reaction"
+  >
+    <hr />
+    <div
+      className="clap-like"
+    >
+      <div
+        className="claps"
+      >
+        <img
+          alt="clap"
+          onClick={[Function]}
+          src={
+            Object {
+              "ReactComponent": [Function],
+              "__esModule": true,
+              "default": "clapping.svg",
+            }
+          }
+        />
+        <span />
+      </div>
+      <div
+        className="likes"
+      >
+        <img
+          alt="clap"
+          onClick={[Function]}
+          src="heart-black.svg"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;

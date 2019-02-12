@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match the snapshot 1`] = `
+<header>
+  <div
+    className="container"
+  >
+    <p
+      className="heading"
+    >
+      The Artifact
+    </p>
+    <p
+      className="heading-content"
+    >
+      <i>
+        Culture & Art blog
+      </i>
+    </p>
+    <ul
+      className="nav-list"
+    >
+      <div
+        className="nav-items"
+      >
+        <li>
+          Blog
+        </li>
+        <li>
+          About
+        </li>
+        <li>
+          Contact
+        </li>
+      </div>
+    </ul>
+  </div>
+</header>
+`;

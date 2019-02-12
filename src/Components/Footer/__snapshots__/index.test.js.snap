@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match the snapshot 1`] = `
+<footer>
+  <div
+    className="container-width"
+  >
+    <p>
+      © artifact.com 2019
+    </p>
+  </div>
+</footer>
+`;
