@@ -14,10 +14,10 @@ class Main extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://api.myjson.com/bins/hc5ye')
+    return axios.get('https://api.myjson.com/bins/hc5ye')
       .then((jsonObj) => {
-        console.log(jsonObj);
         this.setState({cardJSON: jsonObj.data});
+        return jsonObj;
       });
   }
 

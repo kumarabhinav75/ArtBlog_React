@@ -9,11 +9,12 @@ describe(' Main ', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Should call componentDidMount once', async () => {
+  it('Should call componentDidMount once', async (done) => {
     const wrapper = shallow(<Main />);
-    const spy = jest.spyOn(wrapper.instance(),'componentDidMount');
-    const didMount = wrapper.instance().componentDidMount();
-    expect(spy).toHaveBeenCalled();
-    expect(wrapper.instance().state.cardJSON).toEqual(['a']);
+    expect(wrapper.instance().state.cardJSON.length).toEqual(0);
+    await wrapper.instance().componentDidMount();
+    // console.log(wrapper.instance());
+    expect(wrapper.instance().state.cardJSON.length).toEqual(6);
+    done();
   });
 })
